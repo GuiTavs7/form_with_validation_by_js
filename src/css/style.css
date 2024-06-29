@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.container .informations{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 300px;
+    height: 111px;
+}
+
+.container .informations .title{
+    width: 288px;
+    height: 46px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.container .informations .paragraph{
+    width: 300px;
+    height: 54px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .form input{
+    width: 298px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.container .form .message{
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+.container .form .campo-obrigatorio{
+    opacity: 0;
+    margin-top: -8px;
+    color: red;
+    font-size: x-small;
+}
+
+.container .form .campo-obrigatorio.ativo{
+    opacity: 1;
+}
+
+.container .form .alert{
+    margin-right: 140px;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.container .form .submit-button{
+    width: 298px;
+    height: 41px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3CCC87;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.campo-vazio{
+    border: 1px solid red;
+}
+
+.campo-preenchido{
+    border: 1px solid green;
+}
