@@ -1,9 +1,8 @@
 /* MOBILE VERSION */
 
-@media(min-width: 200px) and  (max-width: 1024px){
+@media(min-width: 310px) and  (max-width: 750px){
 
     .container{
         flex-direction: column;
     }
-
 }
