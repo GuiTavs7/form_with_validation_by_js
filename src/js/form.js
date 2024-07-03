@@ -1,6 +1,6 @@
 const buttonSubmit = document.querySelector(".submit-button"); // Seleciona apenas uma classe
 const inputs = document.querySelectorAll(".input"); // Seleciona todos os elementos com a classe ".input"
-const spanMessages = document.querySelectorAll(".campo-obrigatorio"); // Seleciona todos os elementos com a classe ".campo-obrigatorio"
+const spanMessages = document.querySelectorAll(".erro"); // Seleciona todos os elementos com a classe ".campo-obrigatorio"
 
 // 1) CAMPOS VAZIOS DO FORM - VERMELHO
 
